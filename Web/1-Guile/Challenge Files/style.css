@@ -1,0 +1,14 @@
+body {
+    background-color: #111;
+    text-align: center;
+}
+
+h2 {
+    color: #59c9ff;
+}
+
+@media print {
+    h2::before {
+        content: "Tuwaiq{WriteUp_Xtream}, told you "
+    }
+}
